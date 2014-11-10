@@ -1,0 +1,24 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AmazonMapsSample", "AmazonMapsSample\AmazonMapsSample.csproj", "{C4834E31-303C-4F1B-80BC-CBD29810C895}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7BEB9412-65BE-4DBA-85FD-CE211466B059}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7BEB9412-65BE-4DBA-85FD-CE211466B059}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7BEB9412-65BE-4DBA-85FD-CE211466B059}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7BEB9412-65BE-4DBA-85FD-CE211466B059}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C4834E31-303C-4F1B-80BC-CBD29810C895}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C4834E31-303C-4F1B-80BC-CBD29810C895}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C4834E31-303C-4F1B-80BC-CBD29810C895}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C4834E31-303C-4F1B-80BC-CBD29810C895}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(MonoDevelopProperties) = preSolution
+		StartupItem = AmazonMapsSample\AmazonMapsSample.csproj
+	EndGlobalSection
+EndGlobal

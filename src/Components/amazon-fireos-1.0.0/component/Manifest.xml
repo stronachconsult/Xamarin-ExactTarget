@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<component format="1" id="amazon-fireos">
+  <name>Amazon Fire OS</name>
+  <publisher>Xamarin Inc.</publisher>
+  <publisher-url>http://xamarin.com</publisher-url>
+  <version>1.0.0</version>
+  <summary>Create amazing apps by extending the Amazon Fire OS experience on Amazon Phones and Kindle Fire devices!</summary>
+  <samples>
+    <sample id="AmazonDeviceMessagingSample">
+      <name>Amazon Device Messaging Android Sample</name>
+      <summary>Amazon Device Messaging Android Sample</summary>
+    </sample>
+    <sample id="AmazonGameCircleSample">
+      <name>Amazon GameCircle Android Sample</name>
+      <summary>Amazon GameCircle Android Sample</summary>
+    </sample>
+    <sample id="AmazonInAppPurchasingSample">
+      <name>Amazon In-App Purchasing Android Sample</name>
+      <summary>Amazon In-App Purchasing Android Sample</summary>
+    </sample>
+    <sample id="AmazonMapsSample">
+      <name>Amazon Maps Android Sample</name>
+      <summary>Amazon Maps Android Sample</summary>
+    </sample>
+  </samples>
+</component>

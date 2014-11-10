@@ -1,0 +1,6 @@
+﻿<enum-method-mappings>
+  <mapping jni-class="com/exacttarget/etpushsdk/ETPush">
+    <method jni-name="getLogLevel" parameter="return" clr-enum-type="Android.Util.LogPriority" />
+    <method jni-name="setLogLevel" parameter="logLevel" clr-enum-type="Android.Util.LogPriority" />
+  </mapping>
+</enum-method-mappings>

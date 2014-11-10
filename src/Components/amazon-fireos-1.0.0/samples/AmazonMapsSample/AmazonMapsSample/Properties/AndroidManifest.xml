@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" xmlns:amazon="http://schemas.amazon.com/apk/res/android" android:versionCode="1" android:versionName="1.0" package="com.xamarin.amazon.maps.sample">
+	<uses-sdk android:minSdkVersion="17" android:targetSdkVersion="17" />
+	<application android:label="Amazon Maps Sample">
+		<amazon:enable-feature android:name="com.amazon.geo.maps" android:required="true" />
+	</application>
+	<uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+	<uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+	<uses-permission android:name="android.permission.ACCESS_MOCK_LOCATION" />
+	<uses-permission android:name="android.permission.ACCESS_LOCATION_EXTRA_COMMANDS" />
+</manifest>
