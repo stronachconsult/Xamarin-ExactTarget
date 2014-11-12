@@ -5,7 +5,7 @@ VisualStudioVersion = 12.0.30723.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Example.iOS", "Example.iOS\Example.iOS.csproj", "{42D53051-2863-4C43-8576-F83951AA5088}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Example.Android", "Example.Android\Example.Android.csproj", "{E44E839C-CD19-418A-852E-896CFA9C36AB}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Example.Droid", "Example.Droid\Example.Droid.csproj", "{E44E839C-CD19-418A-852E-896CFA9C36AB}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Example.WinPhone", "Example.WinPhone\Example.WinPhone.csproj", "{DCF3C244-D3C7-436C-866F-15EA8779C3AD}"
 EndProject

@@ -1,6 +1,7 @@
 ﻿using Android.App;
 using Android.OS;
 using Android.Util;
+using Example.Droid;
 //using ExactTarget.ETPushSdk;
 //using ExactTarget.ETPushSdk.Data;
 //using ExactTarget.ETPushSdk.Event;
