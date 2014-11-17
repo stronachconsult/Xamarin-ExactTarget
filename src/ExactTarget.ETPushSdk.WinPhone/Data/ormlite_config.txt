@@ -1,0 +1,426 @@
+#
+# generated on 2014/08/22 09:31:39
+#
+# --table-start--
+dataClass=com.exacttarget.etpushsdk.data.AnalyticItem
+tableName=analytic_item
+# --table-fields-start--
+# --field-start--
+fieldName=id
+generatedId=true
+# --field-end--
+# --field-start--
+fieldName=etAppId
+columnName=et_app_id
+# --field-end--
+# --field-start--
+fieldName=deviceId
+columnName=device_id
+# --field-end--
+# --field-start--
+fieldName=eventDate
+columnName=event_date
+dataPersister=DATE_STRING
+format=yyyy-MM-dd'T'HH:mm:ss.SSS'Z'
+# --field-end--
+# --field-start--
+fieldName=analyticTypes
+columnName=analytic_types
+persisterClass=com.exacttarget.etpushsdk.util.JsonType
+# --field-end--
+# --field-start--
+fieldName=objectIds
+columnName=object_ids
+persisterClass=com.exacttarget.etpushsdk.util.JsonType
+# --field-end--
+# --field-start--
+fieldName=value
+columnName=value
+# --field-end--
+# --field-start--
+fieldName=lastSent
+columnName=last_sent
+# --field-end--
+# --field-start--
+fieldName=readyToSend
+columnName=ready_to_send
+# --field-end--
+# --table-fields-end--
+# --table-end--
+#################################
+# --table-start--
+dataClass=com.exacttarget.etpushsdk.data.GeofenceRequest
+tableName=geofence_request
+# --table-fields-start--
+# --field-start--
+fieldName=id
+generatedId=true
+# --field-end--
+# --field-start--
+fieldName=deviceId
+columnName=device_id
+# --field-end--
+# --field-start--
+fieldName=latitude
+columnName=latitude
+# --field-end--
+# --field-start--
+fieldName=longitude
+columnName=longitude
+# --field-end--
+# --table-fields-end--
+# --table-end--
+#################################
+# --table-start--
+dataClass=com.exacttarget.etpushsdk.data.LocationUpdate
+tableName=location_update
+# --table-fields-start--
+# --field-start--
+fieldName=id
+generatedId=true
+# --field-end--
+# --field-start--
+fieldName=deviceId
+columnName=device_id
+# --field-end--
+# --field-start--
+fieldName=latitude
+columnName=latitude
+# --field-end--
+# --field-start--
+fieldName=longitude
+columnName=longitude
+# --field-end--
+# --field-start--
+fieldName=accuracy
+columnName=accuracy
+# --field-end--
+# --field-start--
+fieldName=timestamp
+columnName=timestamp
+dataPersister=DATE_STRING
+format=yyyy-MM-dd'T'HH:mm:ss.SSS'Z'
+# --field-end--
+# --field-start--
+fieldName=lastSent
+columnName=last_sent
+# --field-end--
+# --table-fields-end--
+# --table-end--
+#################################
+# --table-start--
+dataClass=com.exacttarget.etpushsdk.data.Message
+tableName=messages
+# --table-fields-start--
+# --field-start--
+fieldName=id
+columnName=id
+id=true
+# --field-end--
+# --field-start--
+fieldName=alert
+columnName=alert
+# --field-end--
+# --field-start--
+fieldName=sound
+columnName=sound
+# --field-end--
+# --field-start--
+fieldName=badge
+columnName=badge
+# --field-end--
+# --field-start--
+fieldName=openDirect
+columnName=open_direct
+# --field-end--
+# --field-start--
+fieldName=startDate
+columnName=start_date
+dataPersister=DATE_STRING
+format=yyyy-MM-dd'T'HH:mm:ss.SSS'Z'
+# --field-end--
+# --field-start--
+fieldName=endDate
+columnName=end_date
+dataPersister=DATE_STRING
+format=yyyy-MM-dd'T'HH:mm:ss.SSS'Z'
+# --field-end--
+# --field-start--
+fieldName=messageType
+columnName=message_type
+# --field-end--
+# --field-start--
+fieldName=contentType
+columnName=content_type
+# --field-end--
+# --field-start--
+fieldName=messagesPerPeriod
+columnName=messages_per_period
+# --field-end--
+# --field-start--
+fieldName=numberOfPeriods
+columnName=number_of_periods
+# --field-end--
+# --field-start--
+fieldName=periodType
+columnName=period_type
+# --field-end--
+# --field-start--
+fieldName=isRollingPeriod
+columnName=rolling_period
+# --field-end--
+# --field-start--
+fieldName=messageLimit
+columnName=message_limit
+# --field-end--
+# --field-start--
+fieldName=nextAllowedShow
+columnName=next_allowed_show
+dataPersister=DATE_STRING
+format=yyyy-MM-dd'T'HH:mm:ss.SSS'Z'
+# --field-end--
+# --field-start--
+fieldName=lastShownDate
+columnName=last_shown_date
+dataPersister=DATE_STRING
+format=yyyy-MM-dd'T'HH:mm:ss.SSS'Z'
+# --field-end--
+# --field-start--
+fieldName=showCount
+columnName=show_count
+# --field-end--
+# --field-start--
+fieldName=periodShowCount
+columnName=period_show_count
+# --field-end--
+# --field-start--
+fieldName=minTripped
+columnName=min_tripped
+# --field-end--
+# --field-start--
+fieldName=keys
+columnName=keys
+dataPersister=SERIALIZABLE
+# --field-end--
+# --field-start--
+fieldName=custom
+columnName=custom
+dataPersister=STRING
+# --field-end--
+# --field-start--
+fieldName=read
+columnName=read
+# --field-end--
+# --field-start--
+fieldName=siteId
+columnName=site_id
+# --field-end--
+# --field-start--
+fieldName=subject
+columnName=subject
+# --field-end--
+# --field-start--
+fieldName=url
+columnName=url
+# --field-end--
+# --field-start--
+fieldName=pageId
+columnName=page_id
+# --field-end--
+# --field-start--
+fieldName=messageDeleted
+columnName=message_deleted
+# --field-end--
+# --field-start--
+fieldName=proximity
+columnName=proximity
+# --field-end--
+# --field-start--
+fieldName=ephemeralMessage
+columnName=ephemeral_message
+# --field-end--
+# --field-start--
+fieldName=hasEntered
+columnName=has_entered
+# --field-end--
+# --field-start--
+fieldName=notifyId
+columnName=notify_id
+# --field-end--
+# --field-start--
+fieldName=loiterSeconds
+columnName=loiter_seconds
+# --field-end--
+# --field-start--
+fieldName=entryTime
+columnName=entry_time
+# --field-end--
+# --table-fields-end--
+# --table-end--
+#################################
+# --table-start--
+dataClass=com.exacttarget.etpushsdk.data.Region
+tableName=regions
+# --table-fields-start--
+# --field-start--
+fieldName=id
+columnName=id
+id=true
+# --field-end--
+# --field-start--
+fieldName=name
+columnName=name
+# --field-end--
+# --field-start--
+fieldName=locationType
+columnName=location_type
+# --field-end--
+# --field-start--
+fieldName=latitude
+columnName=latitude
+# --field-end--
+# --field-start--
+fieldName=longitude
+columnName=longitude
+# --field-end--
+# --field-start--
+fieldName=radius
+columnName=radius
+# --field-end--
+# --field-start--
+fieldName=active
+columnName=active
+# --field-end--
+# --field-start--
+fieldName=guid
+columnName=beacon_guid
+# --field-end--
+# --field-start--
+fieldName=major
+columnName=beacon_major
+# --field-end--
+# --field-start--
+fieldName=minor
+columnName=beacon_minor
+# --field-end--
+# --field-start--
+fieldName=entryCount
+columnName=entry_count
+# --field-end--
+# --field-start--
+fieldName=exitCount
+columnName=exit_count
+# --field-end--
+# --field-start--
+fieldName=description
+columnName=description
+# --field-end--
+# --field-start--
+fieldName=hasEntered
+columnName=has_entered
+# --field-end--
+# --table-fields-end--
+# --table-end--
+#################################
+# --table-start--
+dataClass=com.exacttarget.etpushsdk.data.RegionMessage
+tableName=region_message
+# --table-fields-start--
+# --field-start--
+fieldName=id
+generatedId=true
+# --field-end--
+# --field-start--
+fieldName=region
+columnName=region_id
+foreign=true
+# --field-end--
+# --field-start--
+fieldName=message
+columnName=message_id
+foreign=true
+# --field-end--
+# --table-fields-end--
+# --table-end--
+#################################
+# --table-start--
+dataClass=com.exacttarget.etpushsdk.data.Registration
+tableName=registration
+# --table-fields-start--
+# --field-start--
+fieldName=id
+generatedId=true
+# --field-end--
+# --field-start--
+fieldName=platform
+columnName=platform
+# --field-end--
+# --field-start--
+fieldName=deviceId
+columnName=device_id
+# --field-end--
+# --field-start--
+fieldName=deviceToken
+columnName=device_token
+# --field-end--
+# --field-start--
+fieldName=subscriberKey
+columnName=subscriber_key
+# --field-end--
+# --field-start--
+fieldName=etAppId
+columnName=et_app_id
+# --field-end--
+# --field-start--
+fieldName=email
+columnName=email
+# --field-end--
+# --field-start--
+fieldName=badge
+columnName=badge
+# --field-end--
+# --field-start--
+fieldName=timeZone
+columnName=timezone
+# --field-end--
+# --field-start--
+fieldName=dst
+columnName=dst
+# --field-end--
+# --field-start--
+fieldName=tags
+columnName=tags
+dataPersister=SERIALIZABLE
+# --field-end--
+# --field-start--
+fieldName=attributes
+columnName=attributes
+dataPersister=SERIALIZABLE
+# --field-end--
+# --field-start--
+fieldName=platformVersion
+columnName=platform_version
+# --field-end--
+# --field-start--
+fieldName=pushEnabled
+columnName=push_enabled
+# --field-end--
+# --field-start--
+fieldName=locationEnabled
+columnName=location_enabled
+# --field-end--
+# --field-start--
+fieldName=lastSent
+columnName=last_sent
+# --field-end--
+# --field-start--
+fieldName=hwid
+columnName=hwid
+# --field-end--
+# --field-start--
+fieldName=gcmSenderId
+columnName=gcm_sender_id
+# --field-end--
+# --table-fields-end--
+# --table-end--
+#################################

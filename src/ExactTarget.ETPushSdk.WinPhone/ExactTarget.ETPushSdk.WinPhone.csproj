@@ -1,0 +1,129 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{E1DF7F8E-A056-4C4E-A898-0D91094593B4}</ProjectGuid>
+    <OutputType>Exe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>ExactTarget.ETPushSdk</RootNamespace>
+    <AssemblyName>ExactTarget.ETPushSdk</AssemblyName>
+    <TargetFrameworkVersion>v2.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Adapter\CloudPageListAdapter.java" />
+    <Compile Include="Config.cs" />
+    <Content Include="Data\AnalyticItem.java" />
+    <Content Include="Data\Attribute.java" />
+    <Content Include="Data\BeaconRequest.java" />
+    <Content Include="Data\BeaconResponse.java" />
+    <Content Include="Data\CloudPagesResponse.java" />
+    <Content Include="Data\DeviceData.java" />
+    <Content Include="Data\ETSqliteOpenHelper.java" />
+    <Content Include="Data\GeofenceRequest.java" />
+    <Content Include="Data\GeofenceResponse.java" />
+    <Content Include="Data\LatLon.java" />
+    <Content Include="Data\LocationUpdate.java" />
+    <Content Include="Data\Message.java" />
+    <Content Include="Data\ormlite_config.txt" />
+    <Content Include="Data\Region.java" />
+    <Content Include="Data\RegionMessage.java" />
+    <Content Include="Data\Registration.java" />
+    <Compile Include="ETAnalytics.cs" />
+    <Compile Include="ETCloudPageManager.cs" />
+    <Compile Include="ETException.cs" />
+    <Compile Include="ETGeofenceIntentService.cs" />
+    <Compile Include="ETGeofenceReceiver.cs" />
+    <Compile Include="ETLandingPagePresenter.cs" />
+    <Compile Include="ETLocationManager.cs" />
+    <Compile Include="ETLocationProviderChangeReceiver.cs" />
+    <Compile Include="ETLocationProviderChangeService.cs" />
+    <Compile Include="ETLocationTimeoutReceiver.cs" />
+    <Compile Include="ETLocationTimeoutService.cs" />
+    <Compile Include="ETLocationWakeupReceiver.cs" />
+    <Compile Include="ETLocationWakeupService.cs" />
+    <Compile Include="ETOpenReceiver.cs" />
+    <Compile Include="ETPush.cs" />
+    <Compile Include="ETSendDataIntentService.cs" />
+    <Compile Include="ETSendDataReceiver.cs" />
+    <Compile Include="ET_GenericReceiver.cs" />
+    <Content Include="Event\AnalyticItemEvent.java" />
+    <Content Include="Event\AnalyticItemEventListener.java" />
+    <Content Include="Event\BackgroundEvent.java" />
+    <Content Include="Event\BackgroundEventListener.java" />
+    <Content Include="Event\BeaconRegionEnterEvent.java" />
+    <Content Include="Event\BeaconRegionEnterEventListener.java" />
+    <Content Include="Event\BeaconRegionExitEvent.java" />
+    <Content Include="Event\BeaconRegionExitEventListener.java" />
+    <Content Include="Event\BeaconRegionRangeEvent.java" />
+    <Content Include="Event\BeaconRegionRangeEventListener.java" />
+    <Content Include="Event\BeaconResponseEvent.java" />
+    <Content Include="Event\BeaconResponseEventListener.java" />
+    <Content Include="Event\CloudPagesChangedEvent.java" />
+    <Content Include="Event\CloudPagesChangedEventListener.java" />
+    <Content Include="Event\GeofenceResponseEvent.java" />
+    <Content Include="Event\GeofenceResponseEventListener.java" />
+    <Content Include="Event\LastKnownLocationEvent.java" />
+    <Content Include="Event\LastKnownLocationEventListener.java" />
+    <Content Include="Event\LocationUpdateEvent.java" />
+    <Content Include="Event\LocationUpdateEventListener.java" />
+    <Content Include="Event\PowerStatusChangedEvent.java" />
+    <Content Include="Event\PowerStatusChangedEventListener.java" />
+    <Content Include="Event\PushReceivedEvent.java" />
+    <Content Include="Event\PushReceivedEventListener.java" />
+    <Content Include="Event\RegistrationEvent.java" />
+    <Content Include="Event\RegistrationEventListener.java" />
+    <Content Include="Event\ServerErrorEvent.java" />
+    <Content Include="Event\ServerErrorEventListener.java" />
+    <Content Include="Location\ETLastLocationFinder.java" />
+    <Content Include="Location\ETLocationUpdateRequester.java" />
+    <Content Include="Location\ILastLocationFinder.java" />
+    <Content Include="Location\LegacyLastLocationFinder.java" />
+    <Content Include="Location\LocationUpdateRequester.java" />
+    <Content Include="Location\receiver\BootReceiver.java" />
+    <Content Include="Location\receiver\LocationChangedReceiver.java" />
+    <Content Include="Location\receiver\PassiveLocationChangedReceiver.java" />
+    <Content Include="Location\receiver\PowerStateChangedReceiver.java" />
+    <Content Include="Util\ETAmazonDeviceMessagingUtil.java" />
+    <Content Include="Util\ETGooglePlayServicesUtil.java" />
+    <Content Include="Util\EventBus.java" />
+    <Content Include="Util\JsonType.java" />
+    <Content Include="Util\JSONUtil.java" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
