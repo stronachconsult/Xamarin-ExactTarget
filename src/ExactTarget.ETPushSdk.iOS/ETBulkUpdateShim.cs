@@ -13,7 +13,8 @@ namespace ExactTarget.ETPushSdk
     /// 
     /// If everything is working correctly, you can use ETPhoneHome phoneHomeInBulkForGenericUpdateType: and it will take care of the rest for you, which includes marking objects as 'claimed' for sending and deleting them on success. Check the doc on that method (and it's source) for more specifics. There are some extra assumptions on bulk-updatable objects (like the DB being updated to have a claimed column), and they're outlined there.
     /// </summary>
-    [BaseType(typeof(ETGenericUpdate))]
+    [BaseType(typeof(ETGenericUpdate), Delegates = new[] { "WeakDelegate" }, Events = new[] { typeof(ETGenericUpdateObjectProtocol) })]
+    [DisableDefaultCtor]
     public partial interface ETBulkUpdateShim
     {
         /// <summary>

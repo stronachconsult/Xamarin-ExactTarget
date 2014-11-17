@@ -31,8 +31,10 @@
     <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="Mono.Data.Sqlite" />
     <Reference Include="System" />
     <Reference Include="monotouch" />
+    <Reference Include="System.Data" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Resources\" />
@@ -73,6 +75,6 @@
     <ObjcBindingNativeLibrary Include="libetpushsdk-3.3.0.a" />
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="libsqlite3.dylib" />
+    <ObjcBindingNativeLibrary Include="libsqlite3.dylib" />
   </ItemGroup>
 </Project>

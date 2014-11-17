@@ -9,6 +9,7 @@ namespace ExactTarget.ETPushSdk
     /// ETTestsHelper
     /// </summary>
     [BaseType(typeof(NSObject))]
+    [DisableDefaultCtor]
     public partial interface ETTestsHelper
     {
         /// <summary>

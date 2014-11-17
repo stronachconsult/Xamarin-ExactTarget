@@ -11,6 +11,7 @@ namespace ExactTarget.ETPushSdk
     /// ETRegistrations are generated nearly completely programmatically, so you just have to make one and throw it at the server. They are not saved to the database because of this - the values should not change over time, and if they're new later, the old values don't matter.
     /// </summary>
     [BaseType(typeof(ETGenericUpdate))]
+    //[DisableDefaultCtor]
     public partial interface ETRegistration
     {
         /// <summary>

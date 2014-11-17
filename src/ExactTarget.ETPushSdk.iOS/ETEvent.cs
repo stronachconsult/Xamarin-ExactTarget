@@ -12,7 +12,8 @@ namespace ExactTarget.ETPushSdk
     /// 
     /// Some of the enum values are marked deprecated, which indicates that they should not be used in the SDK. These enum values are for analytics on the Middle Tier only. Do not use these in ETEvents.
     /// </summary>
-    [BaseType(typeof(ETGenericUpdate))]
+    [BaseType(typeof(ETGenericUpdate), Delegates = new[] { "WeakDelegate" }, Events = new[] { typeof(ETGenericUpdateObjectProtocol) })]
+    [DisableDefaultCtor]
     public partial interface ETEvent
     {
         /// <summary>

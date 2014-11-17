@@ -9,6 +9,7 @@ namespace ExactTarget.ETPushSdk
     /// ETURLConnection is a wrapper around vanilla NSURLConnections that is useful because it adds things that Apple should have (tags) or things needed for ETPhoneHome to work correctly (reference to the sending object. Otherwise, it's just a regular NSURLConnection.
     /// </summary>
     [BaseType(typeof(NSUrlConnection))]
+    [DisableDefaultCtor]
     public partial interface ETURLConnection
     {
         /// <summary>

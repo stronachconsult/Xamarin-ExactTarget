@@ -14,7 +14,8 @@ namespace ExactTarget.ETPushSdk
     /// 
     /// Please ensure you are linking against CoreLocation. You will get errors otherwise. 
     /// </summary>
-    [BaseType(typeof(CLLocationManagerDelegate))]
+    [BaseType(typeof(NSObject), Delegates = new[] { "Delegate" }, Events = new[] { typeof(CLLocationManagerDelegate) })]
+    //[DisableDefaultCtor]
     public partial interface ETLocationManager
     {
         /// <summary>

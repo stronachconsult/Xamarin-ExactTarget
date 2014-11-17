@@ -13,6 +13,7 @@ namespace ExactTarget.ETPushSdk
     ///  { "location_datetime_utc", "optional, the time the location data was recorded, in ISO 8601 UTC format. If not provided, current time is used. (string)" },
     /// </summary>
     [BaseType(typeof(ETGenericUpdate))]
+    [DisableDefaultCtor]
     public partial interface ETLocationUpdate
     {
         /// <summary>

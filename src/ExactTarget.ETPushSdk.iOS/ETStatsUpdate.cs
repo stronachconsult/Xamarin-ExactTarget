@@ -8,12 +8,9 @@ namespace ExactTarget.ETPushSdk
     /// <summary>
     /// ETStatsUpdate
     /// </summary>
-
-	[BaseType (typeof (ETGenericUpdate),
-		Delegates=new string [] {"NSCopying"},
-		Events=new Type [] { typeof (NSCopying) })]
-
-   	public partial interface ETStatsUpdate
+    [BaseType(typeof(ETGenericUpdate), Delegates = new[] { "Delegate" }, Events = new[] { typeof(NSCopying) })]
+    [DisableDefaultCtor]
+    public partial interface ETStatsUpdate
     {
         /// <summary>
         /// Time in app, in seconds

@@ -43,6 +43,7 @@ namespace ExactTarget.ETPushSdk
     /// Please note that this is a singleton object, and you should reference it as [ETPush pushManager].
     /// </summary>
     [BaseType(typeof(NSObject))]
+    [DisableDefaultCtor]
     public partial interface ETPush
     {
         // NSDate *_sessionStart;

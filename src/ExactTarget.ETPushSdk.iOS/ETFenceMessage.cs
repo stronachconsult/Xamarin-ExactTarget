@@ -13,6 +13,7 @@ namespace ExactTarget.ETPushSdk
     /// ETFenceMessages should be passed to ETPhoneHome through saveToDatabaseInstead: only. They shouldn't be sent to phoneHome:.
     /// </summary>
     [BaseType(typeof(ETGenericUpdate))]
+    [DisableDefaultCtor]
     public partial interface ETFenceMessage
     {
         /// <summary>

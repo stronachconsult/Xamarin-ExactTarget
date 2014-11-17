@@ -10,6 +10,7 @@ namespace ExactTarget.ETPushSdk
     /// Most of the methods are self-explainatory, so this class isn't heavily documented.
     /// </summary>
     [BaseType(typeof(NSObject))]
+    //[DisableDefaultCtor]
     public partial interface ETSqliteHelper
     {
         // sqlite3 *_db;

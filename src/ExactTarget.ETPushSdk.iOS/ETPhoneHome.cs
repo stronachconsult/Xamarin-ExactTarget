@@ -11,7 +11,8 @@ namespace ExactTarget.ETPushSdk
     /// 
     /// Data should be sent back using phoneHome:, which will start the process of sending data to ET, and failing that, save it to the database. The behavior is all controlled by methods on the GenericUpdate object.
     /// </summary>
-	[BaseType(typeof(NSUrlConnectionDelegate))] //: NSUrlConnectionDataDelegate
+    [BaseType(typeof(NSUrlConnectionDelegate), Delegates = new[] { "Delegate" }, Events = new[] { typeof(NSUrlConnectionDataDelegate) })]
+    [DisableDefaultCtor]
     public partial interface ETPhoneHome
     {
         /// <summary>

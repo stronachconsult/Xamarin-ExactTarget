@@ -146,7 +146,7 @@
     </XamarinComponentReference>
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\ExactTarget.ETPushSdk\ExactTarget.ETPushSdk.csproj">
+    <ProjectReference Include="..\ExactTarget.ETPushSdk.Droid\ExactTarget.ETPushSdk.Droid.csproj">
       <Project>{10d8b498-677c-4b29-9834-445a2f283cf6}</Project>
       <Name>ExactTarget.ETPushSdk</Name>
     </ProjectReference>

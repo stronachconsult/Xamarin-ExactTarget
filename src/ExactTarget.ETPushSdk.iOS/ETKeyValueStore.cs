@@ -11,6 +11,7 @@ namespace ExactTarget.ETPushSdk
     /// For the sake of simplicity, this store only deals with NSStrings. Please plan accordingly. 
     /// </summary>
     [BaseType(typeof(NSObject))]
+    [DisableDefaultCtor]
     public partial interface ETKeyValueStore
     {
         /// <summary>

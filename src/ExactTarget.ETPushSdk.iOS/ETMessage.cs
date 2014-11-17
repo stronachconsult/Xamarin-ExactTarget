@@ -13,6 +13,7 @@ namespace ExactTarget.ETPushSdk
     /// Many of these accessors are readonly because the value should be trusted and not changed. There are specific methods to modify the message, such as markAsRead or markAsDeleted. Also, unless specifically marked in a method, only active methods are returned through the getter methods. 
     /// </summary>
     [BaseType(typeof(ETGenericUpdate))]
+    [DisableDefaultCtor]
     public partial interface ETMessage
     {
         /// <summary>

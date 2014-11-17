@@ -11,6 +11,7 @@ namespace ExactTarget.ETPushSdk
     /// ETRegions will has a zero-to-many relationship with ETMessage, which in turn, has a zero-to-many relationship with ETRegion. In plain English, one region can have many messages, and one message can belong to many regions. This is handled through ETFenceMessage.
     /// </summary>
     [BaseType(typeof(ETGenericUpdate))]
+    [DisableDefaultCtor]
     public partial interface ETRegion
     {
         /// <summary>

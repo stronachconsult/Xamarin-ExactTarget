@@ -12,7 +12,8 @@ namespace ExactTarget.ETPushSdk
     /// 
     /// Or, for the most customization, make a new one of these and only access the messages property. If you do that, you'll need to be both the delegate and data source for your table, but you can do whatever you like. The messages array will contain ETMessage objects, and you can see which properties are available on that by checking it's header.
     /// </summary>
-    [BaseType(typeof(UITableViewDataSource))]
+    [BaseType(typeof(UITableViewDataSource), Delegates = new[] { "Delegate" }, Events = new[] { typeof(UITableViewDataSource) })]
+    [DisableDefaultCtor]
     public partial interface ExactTargetEnhancedPushDataSource
     {
         /// <summary>
