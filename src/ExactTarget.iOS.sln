@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExactTarget.ETPushSdk.iOS",
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Example2.iOS", "Example2.iOS\Example2.iOS.csproj", "{25809FA7-4A19-4E33-82CB-802E482846F8}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExactTarget.ETPushSdk.iOS.Unified", "ExactTarget.ETPushSdk.iOS.Unified\ExactTarget.ETPushSdk.iOS.Unified.csproj", "{E24BF36D-3FBB-4343-AD58-95E6071E9FDA}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Ad-Hoc|Any CPU = Ad-Hoc|Any CPU
@@ -67,9 +69,32 @@ Global
 		{744BAB4E-3138-48DD-8DD0-C754F8B9DB3B}.Release|iPhone.Build.0 = Release|Any CPU
 		{744BAB4E-3138-48DD-8DD0-C754F8B9DB3B}.Release|iPhoneSimulator.ActiveCfg = Release|Any CPU
 		{744BAB4E-3138-48DD-8DD0-C754F8B9DB3B}.Release|iPhoneSimulator.Build.0 = Release|Any CPU
+		{E24BF36D-3FBB-4343-AD58-95E6071E9FDA}.Ad-Hoc|Any CPU.ActiveCfg = Debug|Any CPU
+		{E24BF36D-3FBB-4343-AD58-95E6071E9FDA}.Ad-Hoc|Any CPU.Build.0 = Debug|Any CPU
+		{E24BF36D-3FBB-4343-AD58-95E6071E9FDA}.Ad-Hoc|iPhone.ActiveCfg = Release|Any CPU
+		{E24BF36D-3FBB-4343-AD58-95E6071E9FDA}.Ad-Hoc|iPhone.Build.0 = Release|Any CPU
+		{E24BF36D-3FBB-4343-AD58-95E6071E9FDA}.Ad-Hoc|iPhoneSimulator.ActiveCfg = Debug|Any CPU
+		{E24BF36D-3FBB-4343-AD58-95E6071E9FDA}.Ad-Hoc|iPhoneSimulator.Build.0 = Debug|Any CPU
+		{E24BF36D-3FBB-4343-AD58-95E6071E9FDA}.AppStore|Any CPU.ActiveCfg = Debug|Any CPU
+		{E24BF36D-3FBB-4343-AD58-95E6071E9FDA}.AppStore|Any CPU.Build.0 = Debug|Any CPU
+		{E24BF36D-3FBB-4343-AD58-95E6071E9FDA}.AppStore|iPhone.ActiveCfg = Release|Any CPU
+		{E24BF36D-3FBB-4343-AD58-95E6071E9FDA}.AppStore|iPhone.Build.0 = Release|Any CPU
+		{E24BF36D-3FBB-4343-AD58-95E6071E9FDA}.AppStore|iPhoneSimulator.ActiveCfg = Debug|Any CPU
+		{E24BF36D-3FBB-4343-AD58-95E6071E9FDA}.AppStore|iPhoneSimulator.Build.0 = Debug|Any CPU
+		{E24BF36D-3FBB-4343-AD58-95E6071E9FDA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E24BF36D-3FBB-4343-AD58-95E6071E9FDA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E24BF36D-3FBB-4343-AD58-95E6071E9FDA}.Debug|iPhone.ActiveCfg = Debug|Any CPU
+		{E24BF36D-3FBB-4343-AD58-95E6071E9FDA}.Debug|iPhone.Build.0 = Debug|Any CPU
+		{E24BF36D-3FBB-4343-AD58-95E6071E9FDA}.Debug|iPhoneSimulator.ActiveCfg = Debug|Any CPU
+		{E24BF36D-3FBB-4343-AD58-95E6071E9FDA}.Debug|iPhoneSimulator.Build.0 = Debug|Any CPU
+		{E24BF36D-3FBB-4343-AD58-95E6071E9FDA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E24BF36D-3FBB-4343-AD58-95E6071E9FDA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E24BF36D-3FBB-4343-AD58-95E6071E9FDA}.Release|iPhone.ActiveCfg = Release|Any CPU
+		{E24BF36D-3FBB-4343-AD58-95E6071E9FDA}.Release|iPhone.Build.0 = Release|Any CPU
+		{E24BF36D-3FBB-4343-AD58-95E6071E9FDA}.Release|iPhoneSimulator.ActiveCfg = Release|Any CPU
+		{E24BF36D-3FBB-4343-AD58-95E6071E9FDA}.Release|iPhoneSimulator.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(MonoDevelopProperties) = preSolution
-		StartupItem = Example2.iOS\Example2.iOS.csproj
 		Policies = $0
 		$0.DotNetNamingPolicy = $1
 		$1.DirectoryNamespaceAssociation = None
